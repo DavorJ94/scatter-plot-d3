@@ -1,0 +1,74 @@
+body {
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#scatterPlot {
+  margin: auto;
+}
+.forColoring {
+  color: black;
+}
+.dot:hover {
+  cursor: pointer;
+}
+.tick line {
+  stroke: black;
+}
+#borderRect {
+  border-right: none;
+}
+.xAxisLabel {
+  font-size: 2em;
+  fill: black;
+}
+.yAxisLabel {
+  font-size: 2em;
+  fill: black;
+  text-anchor: middle;
+}
+#title {
+  font-size: 1.5em;
+  text-anchor: middle;
+  fill: black;
+}
+#tooltip {
+  position: absolute;
+  min-width: 150px;
+  min-height: 20px;
+  max-width: 220px;
+  padding: 10px;
+  font-size: 14px;
+  background: lightsteelblue;
+  border-radius: 12px;
+  pointer-events: none;
+  box-shadow: 1px 2px 20px 2px #000000;
+}
+#tooltip span {
+  font-weight: bold;
+}
+.textSource {
+  font-style: italic;
+  font-size: 12px;
+  text-anchor: end;
+  fill: #464442;
+}
+.linkSource {
+  fill: #464442;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+}
+.nameAuthor {
+  font-size: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  color: white;
+  margin-top: 30px;
+  text-shadow: 2px 2px #000000;
+}
